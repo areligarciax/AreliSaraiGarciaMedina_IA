@@ -4,4 +4,6 @@
 nombre = "Mauricio Alejandro Cabrera Arellano"
 grado = "6E"
 
+# Imprimimos el texto con tabulaciones (\t) y con saltos de linea (\n)
+
 print("\t\t\t\t---> Curso de Inteligencia Artificial\n\n\tProfesor: " + nombre + "\n\tGrado: " + grado)
