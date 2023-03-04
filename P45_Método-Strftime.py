@@ -1,0 +1,38 @@
+# Areli Sarai García Medina | 203010380
+# Práctica 45 - Trabajar con fechas con el método strftime()
+
+import datetime, locale
+
+locale.setlocale(locale.LC_ALL, "es-Es")
+
+persona1 = datetime.datetime(2002,6,13,9,12)
+
+print(persona1.strftime("Día de la semana abreviado: %a "))
+print(persona1.strftime("Día de la semana completo: %A "))
+print(persona1.strftime("Mes abreviado: %b "))
+print(persona1.strftime("Mes completo: %B "))
+print(persona1.strftime("Fecha completa: %c "))
+print(persona1.strftime("Siglo (empieza a contar desde cero): %C "))
+print(persona1.strftime("Día del mes (01 - 31): %d "))
+print(persona1.strftime("Día/hora/año: %D "))
+print(persona1.strftime("Día del mes (1 - 31): %e "))
+print(persona1.strftime("Año en dos dígitos: %g "))
+print(persona1.strftime("Año en cuatro dígitos: %G "))
+print(persona1.strftime("Mes abreviado: %h "))
+print(persona1.strftime("Hora (00 - 23): %H "))
+print(persona1.strftime("Hora (01 - 12): %I "))
+print(persona1.strftime("Día del año: %j "))
+print(persona1.strftime("Mes del 01 al 12: %m "))
+print(persona1.strftime("Minuto: %M "))
+print(persona1.strftime("Hora y minutos: %R"))
+print(persona1.strftime("Segundos: %S"))
+print(persona1.strftime("Hora, minutos y segundos: %T"))
+print(persona1.strftime("Día de la semana (número): %u"))
+print(persona1.strftime("Semana del año (empieza en domingo): %U"))
+print(persona1.strftime("Semana del año(Condiciones especiales): %V"))
+print(persona1.strftime("Semana del año (empieza en lunes): %W"))
+print(persona1.strftime("Día de la semana (empieza en domingo): %w"))
+print(persona1.strftime("Día/mes/año de dos dígitos: %x"))
+print(persona1.strftime("Hora/minutos/segundos: %X"))
+print(persona1.strftime("Año corto: %y"))
+print(persona1.strftime("Año largo: %Y"))
