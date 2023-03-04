@@ -3,7 +3,7 @@
 
 import re
 
-texto1 = "Areli García"
+texto1 = "Areli Sarai García Medina"
 
 busqueda1 = re.search("A", texto1)
 busqueda2 = re.search("a", texto1)
