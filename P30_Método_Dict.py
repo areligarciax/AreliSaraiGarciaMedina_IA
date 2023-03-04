@@ -1,6 +1,8 @@
 # Areli Sarai García Medina | 203010380
 # Práctica 30 - ¿Qué son los diccionarios de Python?
 
+# Se crean los diccionarios con sus elementos y atributos
+
 alumno1 = {
     "Nombre": "Sofía Veazey",
     "Registro": "20310136",
@@ -40,6 +42,9 @@ alumno4 = {
 
 #nacionalidad = alumno1["Nacionalidad"], alumno2["Nacionalidad"], alumno3["Nacionalidad"], alumno4["Nacionalidad"]
 #print("Nacionalidades:", nacionalidad)
+
+
+# Con ayuda de dict(), se imprimen todos los elementos y atributos que se encuentran en los diccionarios
 
 muestraAlumno1 = dict(alumno1)
 print("Datos del alumno 1:", muestraAlumno1)
