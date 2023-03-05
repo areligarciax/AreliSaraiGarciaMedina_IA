@@ -16,7 +16,7 @@ class Usuario():
 		print('\nNombre:', self.nombre, '\nApellido:', self.apellido, '\nRegistro:', self.registro,  '\nTurno:', self.turno)
 
 
-# Se crea una nueva clase 'Fav()' con nuevos atributos
+# Se crea una nueva clase 'Fav()' con los atributos de la clase padre, mas nuevos atributos
 class Fav(Usuario):
 	# Con el método '__init__' se inicializan los valores de la clase
 	def __init__(self, color, taste, musica):
