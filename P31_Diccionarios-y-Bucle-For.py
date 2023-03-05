@@ -1,6 +1,9 @@
 # Areli Sarai García Medina | 203010380
 # Práctica 31 - Como usar diccionarios con el bucle For
 
+
+# Se crean los diccionarios con sus elementos y atributos
+
 alumno1 = {
     "Nombre": "Sofía Veazey",
     "Registro": "20310136",
@@ -28,6 +31,9 @@ alumno4 = {
     "Edad": "20",
     "Nacionalidad": "Italiana"
 }
+
+# Se imprimen los elementos de los diccionarios con ayuda del ciclo for
+# 'x' para el string de los atributos y 'y' para lo que contiene
 
 for x, y in alumno1.items():
     print(x, ": ", y)
